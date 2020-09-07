@@ -5,35 +5,45 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Application requires
 The application requires these dependencies to be installed
-- Node
-- Npm
+* Node
+* Npm
 ## Getting Started
 ### Clone the repostory
-$ git clone
+``` 
+$ git clone 
+```
 ### Navigate to the repository
-$ cd OsloCity-bikes
+``` 
+$ cd OsloCity-bikes 
+```
 ### Install dependencies
+````
 $ npm install
+````
+
 ### Run app
-Then you are up and running and may start the project with:
+- Then you are up and running and may start the project with:
+``` 
 $ Ng serve --open
+
+````
 
 Application will open on your browser at http://localhost:4200/ 
 
 ### Troubleshooting
-If you have a problem staring the project, make sure that you are using node version 12.18.3 or later.
+* If you have a problem staring the project, make sure that you are using node version 12.18.3 or later.
 
 ## Git
 - GitHub repository: https://github.com/Bahaa-Fadhil/OsloCity-bikes
 
 ## Data Sources
-- // Station information endpoint: https://gbfs.urbansharing.com/oslobysykkel.no/station_information.json
-- // Stations status endpoint:  https://gbfs.urbansharing.com/oslobysykkel.no/station_status.json
-- // Proxy to enable cross-origin requests:  https://cors-anywhere.herokuapp.com/
+-  Station information endpoint: https://gbfs.urbansharing.com/oslobysykkel.no/station_information.json
+- Stations status endpoint:  https://gbfs.urbansharing.com/oslobysykkel.no/station_status.json
+- Proxy to enable cross-origin requests:  https://cors-anywhere.herokuapp.com/
 
 ## Author
-Bahaa Al-Bayati <<www.bahaa.no>>
-Inspiration of Gyrd Brændeland
+* Bahaa Al-Bayati <<www.bahaa.no>>
+* Inspiration of Gyrd Brændeland
 
 ## Development server
 
