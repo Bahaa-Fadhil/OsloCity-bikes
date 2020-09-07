@@ -1,0 +1,7 @@
+<div class='header'>
+    <h1>OSlo City Bikes</h1>
+    <div *ngIf="lastUpdated">Last Updated: {{displayDate(lastUpdated)}}</div>
+  </div>
+  <ng-container *ngIf="statusList.length > 0">
+    <app-Bike-map [stationList]="statusList"></app-Bike-map>
+  </ng-container>
